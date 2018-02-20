@@ -1,6 +1,6 @@
 # ow-counter
 
-###Population count
+### Population count
 
 Write a function which takes a non-negative integer and returns the number of “1” bits set
 in the binary representation of that integer. 
