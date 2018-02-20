@@ -33,12 +33,4 @@ public class PopulationCounterTest {
             assertThat(counter.count((int) Math.pow(2,value) - 1), is(value));
         }
     }
-
-    @Test
-    public void shouldReturnTestValuesInReadme() {
-        assertThat(counter.count(5), is(2));
-        assertThat(counter.count(0), is(0));
-        assertThat(counter.count(8), is(1));
-        assertThat(counter.count(19), is(3));
-    }
 }
